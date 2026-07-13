@@ -89,7 +89,7 @@
     .hero-title {
       font-family: 'Dancing Script', cursive;
       font-size: 2.6rem;
-      font-weight: 400;
+      font-weight: 700;
       color: white;
       text-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
       line-height: 1.1;
@@ -104,14 +104,14 @@
       padding: 8px 12px;
       margin: 10px auto 6px;
       display: inline-block;
-      font-weight: 300;
+      font-weight: 700;
     }
     .hero-sub {
       font-size: 1rem;
       font-style: italic;
       color: rgba(255, 248, 242, 0.85);
       margin-top: 4px;
-      font-weight: 300;
+      font-weight: 700;
     }
     .hero-divider {
       color: rgba(255, 255, 255, 0.3);
@@ -138,7 +138,7 @@
       letter-spacing: 0.1em;
       color: #7a6b62;
       text-align: center;
-      font-weight: 300;
+      font-weight: 700;
     }
 
     /* --- Contador --- */
@@ -157,7 +157,7 @@
     }
     .count-number {
       font-size: 2rem;
-      font-weight: 300;
+      font-weight: 700;
       color: #b28b7a;
       font-family: 'Cormorant Garamond', serif;
       line-height: 1.1;
@@ -171,8 +171,8 @@
     }
 
     /* --- Misa --- */
-    .church-name { font-size: 1.3rem; text-align: center; font-weight: 400; }
-    .church-detail { text-align: center; font-size: 1rem; color: #7a6b62; margin-top: 4px; }
+    .church-name { font-size: 1.3rem; text-align: center; font-weight: 700; }
+    .church-detail { text-align: center; font-size: 1.2rem; color: #7a6b62; margin-top: 6px; }
 
     .btn-map {
       display: flex;
@@ -219,17 +219,16 @@
 
     /* --- Footer --- */
     .footer-heart { text-align: center; font-size: 1.6rem; color: #d4c3b8; margin: 8px 0; }
-    .footer-text { text-align: center; font-size: 0.9rem; color: #7a6b62; font-style: italic; }
-    .footer-year { text-align: center; font-size: 0.7rem; color: #b8aaa0; margin-top: 12px; }
+    .footer-text { text-align: center; font-size: 1.1rem; color: #7a6b62; font-style: italic; }
+    .footer-year { text-align: center; font-size: 0.9rem; color: #b8aaa0; margin-top: 12px; }
 
     .mt-8 { margin-top: 8px; }
     .mt-16 { margin-top: 16px; }
     .text-center { text-align: center; }
+    
   </style>
 </head>
 <body>
-
-<div class="container">
 
   <!-- ========== HERO: FONDO + CÍRCULO ========== -->
     <div class="hero-section">
@@ -244,11 +243,11 @@
         <div class="hero-text">
           <div class="hero-title">
             <span>Agnieszka</span>
-            <span class="amp">&</span>
+            <div class="amp">&</div>
             <span>Mario Alejandro</span>
           </div>
           <div class="hero-date">Piątek, 18 września 2026 r</div>
-          <div class="hero-sub">Bierzemy ślub i chcemy świętować z Tobą</div>
+          <div class="hero-sub">Bierzemy ślub i chcemy celebrować go razem z Tobą</div>
           <div class="hero-divider">✧ ✿ ✧</div>
         </div>
       </div>
@@ -264,14 +263,14 @@
       <div class="count-item"><div class="count-number" id="minutes">00</div><div class="count-label">Min.</div></div>
       <div class="count-item"><div class="count-number" id="seconds">00</div><div class="count-label">Sek.</div></div>
     </div>
-    <p class="text-center" style="font-size:0.75rem; color:#b8aaa0; margin-top:12px; letter-spacing:0.05em;">✧ Czekamy na Was ✧</p>
+    <p class="text-center" style="font-size:1rem; color:#b8aaa0; margin-top:12px; letter-spacing:0.05em;">✧ Czekamy na Was ✧</p>
   </div>
 
   <!-- ========== MISA Y MAPA ========== -->
   <div class="card">
     <div class="church-name">Kościół Św. Mikołaja</div>
-    <div class="church-detail">w Zielonej Górze - Raculi · 15:00</div>
-
+    <div class="church-detail">w Zielonej Górze - Raculi.</div>
+    <div class="church-detail">godzina 15:00</div>
     <button class="btn-map" id="mapToggle">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
       <span id="mapBtnText">Pokaż mapę</span>
@@ -284,7 +283,7 @@
 
   <!-- ========== FOOTER ========== -->
   <div class="footer-heart">✿</div>
-  <p class="footer-text">Z całym sercem czekamy na ten dzień</p>
+  <p class="footer-text">✧ Z niecierpliwością i radością czekamy na ten dzień ✧</p>
   <p class="footer-year">Agnieszka Bonikowska &amp; Mario Alejandro Aguirre Bolivar· <span id="year"></span></p>
 
 </div>
